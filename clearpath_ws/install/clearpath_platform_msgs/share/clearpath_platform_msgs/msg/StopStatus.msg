@@ -1,0 +1,1 @@
+/home/hyeseonl/clearpath_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/StopStatus.msg

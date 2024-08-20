@@ -1,0 +1,4 @@
+Invoking command in '/home/hyeseonl/clearpath_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hyeseonl/clearpath_ws/build/clearpath_platform_msgs -- -j32 -l32
+Invoked command in '/home/hyeseonl/clearpath_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hyeseonl/clearpath_ws/build/clearpath_platform_msgs -- -j32 -l32
+Invoking command in '/home/hyeseonl/clearpath_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hyeseonl/clearpath_ws/build/clearpath_platform_msgs
+Invoked command in '/home/hyeseonl/clearpath_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hyeseonl/clearpath_ws/build/clearpath_platform_msgs

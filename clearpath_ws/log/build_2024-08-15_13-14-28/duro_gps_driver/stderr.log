@@ -1,0 +1,82 @@
+In file included from [01m[K/usr/local/include/libsbp/sbp.h:16[m[K,
+                 from [01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33[m[K:
+[01m[K/usr/local/include/libsbp/system.h:23:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Legacy SBP definitions have moved. To continue using legacy message definitions include `libsbp/legacy/system.h` instead. Access to legacy types via `libsbp/system.h` will be removed in version 5.[m[K’
+   23 | [01;36m[KSBP_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/local/include/libsbp/navigation.h:23:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Legacy SBP definitions have moved. To continue using legacy message definitions include `libsbp/legacy/navigation.h` instead. Access to legacy types via `libsbp/navigation.h` will be removed in version 5.[m[K’
+   23 | [01;36m[KSBP_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/local/include/libsbp/orientation.h:23:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Legacy SBP definitions have moved. To continue using legacy message definitions include `libsbp/legacy/orientation.h` instead. Access to legacy types via `libsbp/orientation.h` will be removed in version 5.[m[K’
+   23 | [01;36m[KSBP_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/local/include/libsbp/imu.h:23:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Legacy SBP definitions have moved. To continue using legacy message definitions include `libsbp/legacy/imu.h` instead. Access to legacy types via `libsbp/imu.h` will be removed in version 5.[m[K’
+   23 | [01;36m[KSBP_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/local/include/libsbp/mag.h:23:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Legacy SBP definitions have moved. To continue using legacy message definitions include `libsbp/legacy/mag.h` instead. Access to legacy types via `libsbp/mag.h` will be removed in version 5.[m[K’
+   23 | [01;36m[KSBP_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:654:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  654 |   [01;35m[Ksbp_register_callback(&sbp_state, SBP_MSG_POS_LLH, pos_ll_callback, NULL, &pos_ll_callback_node)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/libsbp/sbp.h:18[m[K,
+                 from [01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33[m[K:
+[01m[K/usr/local/include/libsbp/legacy/compat.h:25:18:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 | static inline s8 [01;36m[Ksbp_register_callback[m[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:655:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  655 |   [01;35m[Ksbp_register_callback(&sbp_state, SBP_MSG_ORIENT_QUAT, orientation_callback, NULL, &orientation_callback_node)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/libsbp/sbp.h:18[m[K,
+                 from [01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33[m[K:
+[01m[K/usr/local/include/libsbp/legacy/compat.h:25:18:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 | static inline s8 [01;36m[Ksbp_register_callback[m[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:656:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  656 |   [01;35m[Ksbp_register_callback(&sbp_state, SBP_MSG_ORIENT_EULER, orientation_euler_callback, NULL, &orientation_euler_callback_node)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/libsbp/sbp.h:18[m[K,
+                 from [01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33[m[K:
+[01m[K/usr/local/include/libsbp/legacy/compat.h:25:18:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 | static inline s8 [01;36m[Ksbp_register_callback[m[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:657:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  657 |   [01;35m[Ksbp_register_callback(&sbp_state, SBP_MSG_IMU_RAW, imu_callback, NULL, &imu_callback_node)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/libsbp/sbp.h:18[m[K,
+                 from [01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33[m[K:
+[01m[K/usr/local/include/libsbp/legacy/compat.h:25:18:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 | static inline s8 [01;36m[Ksbp_register_callback[m[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:658:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  658 |   [01;35m[Ksbp_register_callback(&sbp_state, SBP_MSG_IMU_AUX, imu_aux_callback, NULL, &imu_aux_callback_node)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/libsbp/sbp.h:18[m[K,
+                 from [01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33[m[K:
+[01m[K/usr/local/include/libsbp/legacy/compat.h:25:18:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 | static inline s8 [01;36m[Ksbp_register_callback[m[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:659:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  659 |   [01;35m[Ksbp_register_callback(&sbp_state, SBP_MSG_MAG_RAW, mag_callback, NULL, &mag_callback_node)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/libsbp/sbp.h:18[m[K,
+                 from [01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33[m[K:
+[01m[K/usr/local/include/libsbp/legacy/compat.h:25:18:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 | static inline s8 [01;36m[Ksbp_register_callback[m[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:660:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  660 |   [01;35m[Ksbp_register_callback(&sbp_state, SBP_MSG_GPS_TIME, time_callback, NULL, &time_callback_node)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/libsbp/sbp.h:18[m[K,
+                 from [01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33[m[K:
+[01m[K/usr/local/include/libsbp/legacy/compat.h:25:18:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 | static inline s8 [01;36m[Ksbp_register_callback[m[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:661:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  661 |   [01;35m[Ksbp_register_callback(&sbp_state, SBP_MSG_VEL_NED_COV, vel_ned_cov_callback, NULL, &vel_ned_cov_callback_node)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/libsbp/sbp.h:18[m[K,
+                 from [01m[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33[m[K:
+[01m[K/usr/local/include/libsbp/legacy/compat.h:25:18:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 | static inline s8 [01;36m[Ksbp_register_callback[m[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K

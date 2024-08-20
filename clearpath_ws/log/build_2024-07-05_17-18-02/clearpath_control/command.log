@@ -1,0 +1,4 @@
+Invoking command in '/home/hyeseonl/clearpath_ws/build/clearpath_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hyeseonl/clearpath_ws/build/clearpath_control -- -j32 -l32
+Invoked command in '/home/hyeseonl/clearpath_ws/build/clearpath_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hyeseonl/clearpath_ws/build/clearpath_control -- -j32 -l32
+Invoking command in '/home/hyeseonl/clearpath_ws/build/clearpath_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hyeseonl/clearpath_ws/build/clearpath_control
+Invoked command in '/home/hyeseonl/clearpath_ws/build/clearpath_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hyeseonl/clearpath_ws/build/clearpath_control

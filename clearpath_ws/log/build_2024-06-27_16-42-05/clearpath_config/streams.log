@@ -1,0 +1,36 @@
+[0.465s] Invoking command in '/home/hyeseonl/clearpath_ws/build/clearpath_config': PYTHONPATH=/home/hyeseonl/clearpath_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeseonl/clearpath_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/hyeseonl/clearpath_ws/build/clearpath_config/build --no-deps symlink_data
+[0.623s] running develop
+[0.624s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.625s]   warnings.warn(
+[0.732s] running egg_info
+[0.732s] creating clearpath_config.egg-info
+[0.732s] writing clearpath_config.egg-info/PKG-INFO
+[0.732s] writing dependency_links to clearpath_config.egg-info/dependency_links.txt
+[0.732s] writing requirements to clearpath_config.egg-info/requires.txt
+[0.732s] writing top-level names to clearpath_config.egg-info/top_level.txt
+[0.734s] writing manifest file 'clearpath_config.egg-info/SOURCES.txt'
+[0.736s] reading manifest file 'clearpath_config.egg-info/SOURCES.txt'
+[0.736s] writing manifest file 'clearpath_config.egg-info/SOURCES.txt'
+[0.737s] running build_ext
+[0.737s] Creating /home/hyeseonl/clearpath_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath-config.egg-link (link to .)
+[0.737s] 
+[0.737s] Installed /home/hyeseonl/clearpath_ws/build/clearpath_config
+[0.737s] running symlink_data
+[0.737s] creating /home/hyeseonl/clearpath_ws/install/clearpath_config/share/ament_index
+[0.737s] creating /home/hyeseonl/clearpath_ws/install/clearpath_config/share/ament_index/resource_index
+[0.737s] creating /home/hyeseonl/clearpath_ws/install/clearpath_config/share/ament_index/resource_index/packages
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/resource/clearpath_config -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/ament_index/resource_index/packages
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/package.xml -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config
+[0.737s] creating /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config/sample
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/clearpath_config/sample/a200/a200_default.yaml -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config/sample
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/clearpath_config/sample/a200/a200_dual_laser.yaml -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config/sample
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/clearpath_config/sample/a200/a200_sample.yaml -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config/sample
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/clearpath_config/sample/a200/a200_velodyne.yaml -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config/sample
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/clearpath_config/sample/j100/j100_default.yaml -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config/sample
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/clearpath_config/sample/j100/j100_dual_laser.yaml -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config/sample
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/clearpath_config/sample/j100/j100_sample.yaml -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config/sample
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/clearpath_config/sample/j100/j100_velodyne.yaml -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config/sample
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/clearpath_config/sample/w200/w200_default.yaml -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config/sample
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/clearpath_config/sample/w200/w200_dual_laser.yaml -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config/sample
+[0.737s] symbolically linking /home/hyeseonl/clearpath_ws/build/clearpath_config/clearpath_config/sample/w200/w200_velodyne.yaml -> /home/hyeseonl/clearpath_ws/install/clearpath_config/share/clearpath_config/sample
+[0.751s] Invoked command in '/home/hyeseonl/clearpath_ws/build/clearpath_config' returned '0': PYTHONPATH=/home/hyeseonl/clearpath_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeseonl/clearpath_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/hyeseonl/clearpath_ws/build/clearpath_config/build --no-deps symlink_data

@@ -1,0 +1,71 @@
+[0.006s] Invoking command in '/home/hyeseonl/clearpath_ws/build/clearpath_platform': AMENT_PREFIX_PATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs:/home/hyeseonl/clearpath_ws/install/clearpath_platform_description:/home/hyeseonl/clearpath_ws/install/clearpath_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs:/home/hyeseonl/clearpath_ws/install/clearpath_platform_description:/home/hyeseonl/clearpath_ws/install/clearpath_control:/opt/ros/humble LD_LIBRARY_PATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hyeseonl/clearpath_ws/build/clearpath_platform -- -j32 -l32
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target clearpath_platform_lighting[0m
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target w200_hardware[0m
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target j100_hardware[0m
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target a200_hardware[0m
+[0.048s] [ 51%] Built target j100_hardware
+[0.048s] [ 51%] Built target w200_hardware
+[0.048s] [ 92%] Built target a200_hardware
+[0.048s] [ 92%] Built target clearpath_platform_lighting
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target lighting_node[0m
+[0.065s] [100%] Built target lighting_node
+[0.072s] Invoked command in '/home/hyeseonl/clearpath_ws/build/clearpath_platform' returned '0': AMENT_PREFIX_PATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs:/home/hyeseonl/clearpath_ws/install/clearpath_platform_description:/home/hyeseonl/clearpath_ws/install/clearpath_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs:/home/hyeseonl/clearpath_ws/install/clearpath_platform_description:/home/hyeseonl/clearpath_ws/install/clearpath_control:/opt/ros/humble LD_LIBRARY_PATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hyeseonl/clearpath_ws/build/clearpath_platform -- -j32 -l32
+[0.110s] Invoking command in '/home/hyeseonl/clearpath_ws/build/clearpath_platform': AMENT_PREFIX_PATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs:/home/hyeseonl/clearpath_ws/install/clearpath_platform_description:/home/hyeseonl/clearpath_ws/install/clearpath_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs:/home/hyeseonl/clearpath_ws/install/clearpath_platform_description:/home/hyeseonl/clearpath_ws/install/clearpath_control:/opt/ros/humble LD_LIBRARY_PATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hyeseonl/clearpath_ws/build/clearpath_platform
+[0.115s] -- Install configuration: ""
+[0.115s] -- Execute custom install script
+[0.116s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/src/a200/hardware.xml
+[0.116s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/src/j100/hardware.xml
+[0.116s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/src/w200/hardware.xml
+[0.116s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/lib/liba200_hardware.so
+[0.116s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/lib/libj100_hardware.so
+[0.116s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/lib/libw200_hardware.so
+[0.117s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/lib/clearpath_platform/lighting_node
+[0.117s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/lib/libclearpath_platform_lighting.so
+[0.117s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/hardware.hpp
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Exception.h
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Logger.h
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message.h
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_cmd.h
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_data.h
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_request.h
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Number.h
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Transport.h
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/clearpath.h
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/crc.h
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/horizon_legacy_wrapper.h
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/serial.h
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/a200/status.hpp
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/diff_drive/hardware.hpp
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/diff_drive/hardware_interface.hpp
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/j100/hardware.hpp
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/j100/hardware_interface.hpp
+[0.118s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/lighting/color.hpp
+[0.119s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/lighting/lighting.hpp
+[0.119s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/lighting/platform.hpp
+[0.119s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/lighting/sequence.hpp
+[0.119s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/w200/hardware.hpp
+[0.119s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/include/clearpath_platform/w200/hardware_interface.hpp
+[0.119s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/config/imu_filter.yaml
+[0.119s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/launch/platform.launch.py
+[0.119s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/environment/library_path.sh
+[0.119s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/environment/library_path.dsv
+[0.120s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/ament_index/resource_index/package_run_dependencies/clearpath_platform
+[0.120s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/ament_index/resource_index/parent_prefix_path/clearpath_platform
+[0.120s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/environment/ament_prefix_path.sh
+[0.120s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/environment/ament_prefix_path.dsv
+[0.120s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/environment/path.sh
+[0.120s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/environment/path.dsv
+[0.120s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/local_setup.bash
+[0.120s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/local_setup.sh
+[0.120s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/local_setup.zsh
+[0.120s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/local_setup.dsv
+[0.120s] -- Symlinking: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/package.dsv
+[0.126s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/ament_index/resource_index/packages/clearpath_platform
+[0.126s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/clearpath_platform
+[0.126s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.126s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/cmake/ament_cmake_export_libraries-extras.cmake
+[0.126s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.126s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/cmake/clearpath_platformConfig.cmake
+[0.127s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/cmake/clearpath_platformConfig-version.cmake
+[0.127s] -- Up-to-date symlink: /home/hyeseonl/clearpath_ws/install/clearpath_platform/share/clearpath_platform/package.xml
+[0.128s] Invoked command in '/home/hyeseonl/clearpath_ws/build/clearpath_platform' returned '0': AMENT_PREFIX_PATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs:/home/hyeseonl/clearpath_ws/install/clearpath_platform_description:/home/hyeseonl/clearpath_ws/install/clearpath_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs:/home/hyeseonl/clearpath_ws/install/clearpath_platform_description:/home/hyeseonl/clearpath_ws/install/clearpath_control:/opt/ros/humble LD_LIBRARY_PATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hyeseonl/clearpath_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hyeseonl/clearpath_ws/build/clearpath_platform

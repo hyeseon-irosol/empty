@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (-) JobUnselected: {'identifier': 'clearpath_common'}
+[0.000477] (-) JobUnselected: {'identifier': 'clearpath_config'}
+[0.000486] (-) JobUnselected: {'identifier': 'clearpath_control'}
+[0.000493] (-) JobUnselected: {'identifier': 'clearpath_customization'}
+[0.000501] (-) JobUnselected: {'identifier': 'clearpath_description'}
+[0.000517] (-) JobUnselected: {'identifier': 'clearpath_generator_common'}
+[0.000523] (-) JobUnselected: {'identifier': 'clearpath_mounts_description'}
+[0.000533] (-) JobUnselected: {'identifier': 'clearpath_msgs'}
+[0.000539] (-) JobUnselected: {'identifier': 'clearpath_platform'}
+[0.000545] (-) JobUnselected: {'identifier': 'clearpath_platform_description'}
+[0.000551] (-) JobUnselected: {'identifier': 'clearpath_platform_msgs'}
+[0.000557] (-) JobUnselected: {'identifier': 'clearpath_sensors_description'}
+[0.000565] (duro_gps_driver) JobQueued: {'identifier': 'duro_gps_driver', 'dependencies': OrderedDict()}
+[0.000574] (duro_gps_driver) JobStarted: {'identifier': 'duro_gps_driver'}
+[0.004368] (duro_gps_driver) JobProgress: {'identifier': 'duro_gps_driver', 'progress': 'cmake'}
+[0.004418] (duro_gps_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/hyeseonl/clearpath_ws/src/duro_gps_driver', '-DCMAKE_INSTALL_PREFIX=/home/hyeseonl/clearpath_ws/install/duro_gps_driver'], 'cwd': '/home/hyeseonl/clearpath_ws/build/duro_gps_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hyeseonl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hyeseonl'), ('OLDPWD', '/home/hyeseonl/clearpath_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3425'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/160574/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hyeseonl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hyeseonl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hyeseonl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/puppetlabs/bin:/usr/local/MATLAB/R2024a/bin'), ('SESSION_MANAGER', 'local/MEEM-18630-L:@/tmp/.ICE-unix/3090,unix/MEEM-18630-L:/tmp/.ICE-unix/3090'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64edcf9d_72d4_4643_8bb5_b161a2aa5384'), ('XDG_RUNTIME_DIR', '/run/user/160574'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/160574/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/160574/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/160574/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hyeseonl/clearpath_ws/build/duro_gps_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.032794] (duro_gps_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.060946] (duro_gps_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.064882] (duro_gps_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099997] (-) TimerEvent: {}
+[0.102631] (duro_gps_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.106048] (duro_gps_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.106278] (duro_gps_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.106336] (duro_gps_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.107757] (duro_gps_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.149150] (duro_gps_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.152728] (duro_gps_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.152908] (duro_gps_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.153054] (duro_gps_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.154292] (duro_gps_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200307] (-) TimerEvent: {}
+[0.232731] (duro_gps_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.276212] (duro_gps_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.297334] (duro_gps_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.299657] (duro_gps_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.300359] (-) TimerEvent: {}
+[0.303738] (duro_gps_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.310341] (duro_gps_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.319648] (duro_gps_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.352577] (duro_gps_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.353729] (duro_gps_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400619] (-) TimerEvent: {}
+[0.400824] (duro_gps_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.415288] (duro_gps_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.440100] (duro_gps_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.444740] (duro_gps_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.482333] (duro_gps_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.482584] (duro_gps_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.500737] (-) TimerEvent: {}
+[0.520085] (duro_gps_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.520738] (duro_gps_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.597010] (duro_gps_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.600919] (-) TimerEvent: {}
+[0.660325] (duro_gps_driver) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.701102] (-) TimerEvent: {}
+[0.702657] (duro_gps_driver) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.710247] (duro_gps_driver) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.7 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[0.782983] (duro_gps_driver) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.801277] (-) TimerEvent: {}
+[0.855862] (duro_gps_driver) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.863633] (duro_gps_driver) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.864415] (duro_gps_driver) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.864476] (duro_gps_driver) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.901479] (-) TimerEvent: {}
+[0.901926] (duro_gps_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.907825] (duro_gps_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[0.908547] (duro_gps_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/hyeseonl/clearpath_ws/build/duro_gps_driver\n'}
+[0.914630] (duro_gps_driver) CommandEnded: {'returncode': 0}
+[0.915704] (duro_gps_driver) JobProgress: {'identifier': 'duro_gps_driver', 'progress': 'build'}
+[0.915815] (duro_gps_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hyeseonl/clearpath_ws/build/duro_gps_driver', '--', '-j32', '-l32'], 'cwd': '/home/hyeseonl/clearpath_ws/build/duro_gps_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hyeseonl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hyeseonl'), ('OLDPWD', '/home/hyeseonl/clearpath_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3425'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/160574/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hyeseonl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hyeseonl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hyeseonl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/puppetlabs/bin:/usr/local/MATLAB/R2024a/bin'), ('SESSION_MANAGER', 'local/MEEM-18630-L:@/tmp/.ICE-unix/3090,unix/MEEM-18630-L:/tmp/.ICE-unix/3090'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64edcf9d_72d4_4643_8bb5_b161a2aa5384'), ('XDG_RUNTIME_DIR', '/run/user/160574'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/160574/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/160574/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/160574/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hyeseonl/clearpath_ws/build/duro_gps_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.942197] (duro_gps_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/duro_node.dir/src/duro_node.cpp.o\x1b[0m\n'}
+[0.942316] (duro_gps_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/duro_node.dir/src/fake_orientation.cpp.o\x1b[0m\n'}
+[0.942350] (duro_gps_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/duro_node.dir/src/utm.cpp.o\x1b[0m\n'}
+[1.001667] (-) TimerEvent: {}
+[1.101889] (-) TimerEvent: {}
+[1.202243] (-) TimerEvent: {}
+[1.302460] (-) TimerEvent: {}
+[1.402672] (-) TimerEvent: {}
+[1.502964] (-) TimerEvent: {}
+[1.603205] (-) TimerEvent: {}
+[1.703513] (-) TimerEvent: {}
+[1.803817] (-) TimerEvent: {}
+[1.904240] (-) TimerEvent: {}
+[2.004462] (-) TimerEvent: {}
+[2.104734] (-) TimerEvent: {}
+[2.204949] (-) TimerEvent: {}
+[2.288342] (duro_gps_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/libsbp/sbp.h:16\x1b[m\x1b[K,\n'}
+[2.288470] (duro_gps_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33\x1b[m\x1b[K:\n'}
+[2.288498] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/system.h:23:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Legacy SBP definitions have moved. To continue using legacy message definitions include `libsbp/legacy/system.h` instead. Access to legacy types via `libsbp/system.h` will be removed in version 5.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.288526] (duro_gps_driver) StderrLine: {'line': b'   23 | \x1b[01;36m\x1b[KSBP_MESSAGE\x1b[m\x1b[K(\n'}
+[2.288546] (duro_gps_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.288566] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/navigation.h:23:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Legacy SBP definitions have moved. To continue using legacy message definitions include `libsbp/legacy/navigation.h` instead. Access to legacy types via `libsbp/navigation.h` will be removed in version 5.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.288589] (duro_gps_driver) StderrLine: {'line': b'   23 | \x1b[01;36m\x1b[KSBP_MESSAGE\x1b[m\x1b[K(\n'}
+[2.288609] (duro_gps_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.288847] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/orientation.h:23:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Legacy SBP definitions have moved. To continue using legacy message definitions include `libsbp/legacy/orientation.h` instead. Access to legacy types via `libsbp/orientation.h` will be removed in version 5.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.288902] (duro_gps_driver) StderrLine: {'line': b'   23 | \x1b[01;36m\x1b[KSBP_MESSAGE\x1b[m\x1b[K(\n'}
+[2.288928] (duro_gps_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.288950] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/imu.h:23:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Legacy SBP definitions have moved. To continue using legacy message definitions include `libsbp/legacy/imu.h` instead. Access to legacy types via `libsbp/imu.h` will be removed in version 5.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.288977] (duro_gps_driver) StderrLine: {'line': b'   23 | \x1b[01;36m\x1b[KSBP_MESSAGE\x1b[m\x1b[K(\n'}
+[2.288996] (duro_gps_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.289016] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/mag.h:23:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Legacy SBP definitions have moved. To continue using legacy message definitions include `libsbp/legacy/mag.h` instead. Access to legacy types via `libsbp/mag.h` will be removed in version 5.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.289036] (duro_gps_driver) StderrLine: {'line': b'   23 | \x1b[01;36m\x1b[KSBP_MESSAGE\x1b[m\x1b[K(\n'}
+[2.289056] (duro_gps_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.305055] (-) TimerEvent: {}
+[2.323614] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.323723] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:654:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.323762] (duro_gps_driver) StderrLine: {'line': b'  654 |   \x1b[01;35m\x1b[Ksbp_register_callback(&sbp_state, SBP_MSG_POS_LLH, pos_ll_callback, NULL, &pos_ll_callback_node)\x1b[m\x1b[K;\n'}
+[2.323785] (duro_gps_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.323805] (duro_gps_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/libsbp/sbp.h:18\x1b[m\x1b[K,\n'}
+[2.323826] (duro_gps_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33\x1b[m\x1b[K:\n'}
+[2.323846] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/legacy/compat.h:25:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.323865] (duro_gps_driver) StderrLine: {'line': b'   25 | static inline s8 \x1b[01;36m\x1b[Ksbp_register_callback\x1b[m\x1b[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)\n'}
+[2.323885] (duro_gps_driver) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.323904] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:655:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.323924] (duro_gps_driver) StderrLine: {'line': b'  655 |   \x1b[01;35m\x1b[Ksbp_register_callback(&sbp_state, SBP_MSG_ORIENT_QUAT, orientation_callback, NULL, &orientation_callback_node)\x1b[m\x1b[K;\n'}
+[2.323944] (duro_gps_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.323963] (duro_gps_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/libsbp/sbp.h:18\x1b[m\x1b[K,\n'}
+[2.323986] (duro_gps_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33\x1b[m\x1b[K:\n'}
+[2.324005] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/legacy/compat.h:25:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.324023] (duro_gps_driver) StderrLine: {'line': b'   25 | static inline s8 \x1b[01;36m\x1b[Ksbp_register_callback\x1b[m\x1b[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)\n'}
+[2.324041] (duro_gps_driver) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324060] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:656:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.324093] (duro_gps_driver) StderrLine: {'line': b'  656 |   \x1b[01;35m\x1b[Ksbp_register_callback(&sbp_state, SBP_MSG_ORIENT_EULER, orientation_euler_callback, NULL, &orientation_euler_callback_node)\x1b[m\x1b[K;\n'}
+[2.324115] (duro_gps_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324151] (duro_gps_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/libsbp/sbp.h:18\x1b[m\x1b[K,\n'}
+[2.324170] (duro_gps_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33\x1b[m\x1b[K:\n'}
+[2.324188] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/legacy/compat.h:25:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.324208] (duro_gps_driver) StderrLine: {'line': b'   25 | static inline s8 \x1b[01;36m\x1b[Ksbp_register_callback\x1b[m\x1b[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)\n'}
+[2.324228] (duro_gps_driver) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324247] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:657:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.324271] (duro_gps_driver) StderrLine: {'line': b'  657 |   \x1b[01;35m\x1b[Ksbp_register_callback(&sbp_state, SBP_MSG_IMU_RAW, imu_callback, NULL, &imu_callback_node)\x1b[m\x1b[K;\n'}
+[2.324290] (duro_gps_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324309] (duro_gps_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/libsbp/sbp.h:18\x1b[m\x1b[K,\n'}
+[2.324327] (duro_gps_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33\x1b[m\x1b[K:\n'}
+[2.324346] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/legacy/compat.h:25:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.324364] (duro_gps_driver) StderrLine: {'line': b'   25 | static inline s8 \x1b[01;36m\x1b[Ksbp_register_callback\x1b[m\x1b[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)\n'}
+[2.324383] (duro_gps_driver) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324402] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:658:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.324425] (duro_gps_driver) StderrLine: {'line': b'  658 |   \x1b[01;35m\x1b[Ksbp_register_callback(&sbp_state, SBP_MSG_IMU_AUX, imu_aux_callback, NULL, &imu_aux_callback_node)\x1b[m\x1b[K;\n'}
+[2.324443] (duro_gps_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324461] (duro_gps_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/libsbp/sbp.h:18\x1b[m\x1b[K,\n'}
+[2.324479] (duro_gps_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33\x1b[m\x1b[K:\n'}
+[2.324498] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/legacy/compat.h:25:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.324518] (duro_gps_driver) StderrLine: {'line': b'   25 | static inline s8 \x1b[01;36m\x1b[Ksbp_register_callback\x1b[m\x1b[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)\n'}
+[2.324537] (duro_gps_driver) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324555] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:659:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.324575] (duro_gps_driver) StderrLine: {'line': b'  659 |   \x1b[01;35m\x1b[Ksbp_register_callback(&sbp_state, SBP_MSG_MAG_RAW, mag_callback, NULL, &mag_callback_node)\x1b[m\x1b[K;\n'}
+[2.324593] (duro_gps_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324611] (duro_gps_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/libsbp/sbp.h:18\x1b[m\x1b[K,\n'}
+[2.324629] (duro_gps_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33\x1b[m\x1b[K:\n'}
+[2.324647] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/legacy/compat.h:25:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.324665] (duro_gps_driver) StderrLine: {'line': b'   25 | static inline s8 \x1b[01;36m\x1b[Ksbp_register_callback\x1b[m\x1b[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)\n'}
+[2.324683] (duro_gps_driver) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324701] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:660:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.324721] (duro_gps_driver) StderrLine: {'line': b'  660 |   \x1b[01;35m\x1b[Ksbp_register_callback(&sbp_state, SBP_MSG_GPS_TIME, time_callback, NULL, &time_callback_node)\x1b[m\x1b[K;\n'}
+[2.324740] (duro_gps_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324758] (duro_gps_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/libsbp/sbp.h:18\x1b[m\x1b[K,\n'}
+[2.324775] (duro_gps_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33\x1b[m\x1b[K:\n'}
+[2.324793] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/legacy/compat.h:25:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.324811] (duro_gps_driver) StderrLine: {'line': b'   25 | static inline s8 \x1b[01;36m\x1b[Ksbp_register_callback\x1b[m\x1b[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)\n'}
+[2.324828] (duro_gps_driver) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324846] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:661:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ks8 sbp_register_callback(sbp_state_t*, u16, sbp_msg_callback_t, void*, sbp_msg_callbacks_node_t*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.324866] (duro_gps_driver) StderrLine: {'line': b'  661 |   \x1b[01;35m\x1b[Ksbp_register_callback(&sbp_state, SBP_MSG_VEL_NED_COV, vel_ned_cov_callback, NULL, &vel_ned_cov_callback_node)\x1b[m\x1b[K;\n'}
+[2.324884] (duro_gps_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324902] (duro_gps_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/libsbp/sbp.h:18\x1b[m\x1b[K,\n'}
+[2.324920] (duro_gps_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hyeseonl/clearpath_ws/src/duro_gps_driver/src/duro_node.cpp:33\x1b[m\x1b[K:\n'}
+[2.324938] (duro_gps_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/libsbp/legacy/compat.h:25:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.324956] (duro_gps_driver) StderrLine: {'line': b'   25 | static inline s8 \x1b[01;36m\x1b[Ksbp_register_callback\x1b[m\x1b[K(sbp_state_t* s, u16 msg_type, sbp_msg_callback_t cb, void* context, sbp_msg_callbacks_node_t *node)\n'}
+[2.324974] (duro_gps_driver) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.405164] (-) TimerEvent: {}
+[2.505378] (-) TimerEvent: {}
+[2.605702] (-) TimerEvent: {}
+[2.705953] (-) TimerEvent: {}
+[2.806244] (-) TimerEvent: {}
+[2.906576] (-) TimerEvent: {}
+[3.006891] (-) TimerEvent: {}
+[3.107202] (-) TimerEvent: {}
+[3.207552] (-) TimerEvent: {}
+[3.307860] (-) TimerEvent: {}
+[3.408199] (-) TimerEvent: {}
+[3.508430] (-) TimerEvent: {}
+[3.608683] (-) TimerEvent: {}
+[3.708941] (-) TimerEvent: {}
+[3.809238] (-) TimerEvent: {}
+[3.909562] (-) TimerEvent: {}
+[4.009861] (-) TimerEvent: {}
+[4.110173] (-) TimerEvent: {}
+[4.210464] (-) TimerEvent: {}
+[4.310763] (-) TimerEvent: {}
+[4.411069] (-) TimerEvent: {}
+[4.511417] (-) TimerEvent: {}
+[4.611631] (-) TimerEvent: {}
+[4.711940] (-) TimerEvent: {}
+[4.812254] (-) TimerEvent: {}
+[4.912468] (-) TimerEvent: {}
+[5.012720] (-) TimerEvent: {}
+[5.113057] (-) TimerEvent: {}
+[5.213399] (-) TimerEvent: {}
+[5.245461] (duro_gps_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable duro_node\x1b[0m\n'}
+[5.313517] (-) TimerEvent: {}
+[5.413772] (-) TimerEvent: {}
+[5.464770] (duro_gps_driver) StdoutLine: {'line': b'[100%] Built target duro_node\n'}
+[5.471654] (duro_gps_driver) CommandEnded: {'returncode': 0}
+[5.486709] (duro_gps_driver) JobProgress: {'identifier': 'duro_gps_driver', 'progress': 'install'}
+[5.491512] (duro_gps_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hyeseonl/clearpath_ws/build/duro_gps_driver'], 'cwd': '/home/hyeseonl/clearpath_ws/build/duro_gps_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hyeseonl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hyeseonl'), ('OLDPWD', '/home/hyeseonl/clearpath_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3425'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/160574/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hyeseonl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hyeseonl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hyeseonl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/puppetlabs/bin:/usr/local/MATLAB/R2024a/bin'), ('SESSION_MANAGER', 'local/MEEM-18630-L:@/tmp/.ICE-unix/3090,unix/MEEM-18630-L:/tmp/.ICE-unix/3090'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64edcf9d_72d4_4643_8bb5_b161a2aa5384'), ('XDG_RUNTIME_DIR', '/run/user/160574'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/160574/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/160574/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/160574/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hyeseonl/clearpath_ws/build/duro_gps_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.495589] (duro_gps_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.495711] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/lib/duro_gps_driver/duro_node\n'}
+[5.497790] (duro_gps_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/hyeseonl/clearpath_ws/install/duro_gps_driver/lib/duro_gps_driver/duro_node" to ""\n'}
+[5.497830] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/include/duro_gps_driver/duro_gps_driver\n'}
+[5.497872] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/include/duro_gps_driver/duro_gps_driver/UTM.h\n'}
+[5.497901] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/include/duro_gps_driver/duro_gps_driver/fake_orientation.hpp\n'}
+[5.497926] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/launch\n'}
+[5.497963] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/launch/duro_example.launch.py\n'}
+[5.497995] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/launch/duro_example.launch.xml\n'}
+[5.498016] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/ament_index/resource_index/package_run_dependencies/duro_gps_driver\n'}
+[5.498068] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/ament_index/resource_index/parent_prefix_path/duro_gps_driver\n'}
+[5.498089] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/environment/ament_prefix_path.sh\n'}
+[5.498147] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/environment/ament_prefix_path.dsv\n'}
+[5.498169] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/environment/path.sh\n'}
+[5.498232] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/environment/path.dsv\n'}
+[5.498257] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/local_setup.bash\n'}
+[5.498294] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/local_setup.sh\n'}
+[5.498336] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/local_setup.zsh\n'}
+[5.498358] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/local_setup.dsv\n'}
+[5.498388] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/package.dsv\n'}
+[5.498417] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/ament_index/resource_index/packages/duro_gps_driver\n'}
+[5.498446] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/cmake/duro_gps_driverConfig.cmake\n'}
+[5.498476] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/cmake/duro_gps_driverConfig-version.cmake\n'}
+[5.498507] (duro_gps_driver) StdoutLine: {'line': b'-- Installing: /home/hyeseonl/clearpath_ws/install/duro_gps_driver/share/duro_gps_driver/package.xml\n'}
+[5.499798] (duro_gps_driver) CommandEnded: {'returncode': 0}
+[5.513896] (-) TimerEvent: {}
+[5.523023] (duro_gps_driver) JobEnded: {'identifier': 'duro_gps_driver', 'rc': 0}
+[5.523444] (-) EventReactorShutdown: {}
