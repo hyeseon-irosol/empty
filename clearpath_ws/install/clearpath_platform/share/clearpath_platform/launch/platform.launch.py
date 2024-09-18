@@ -1,1 +1,0 @@
-/home/hyeseonl/clearpath_ws/src/clearpath_common/clearpath_platform/launch/platform.launch.py
